@@ -1,0 +1,13 @@
+"spark":{
+"namespaceName":"pdapoceventhub",
+"eventHubName":"pointhistory",
+"sasKeyName":"sendlisten",
+"sasKey":"kFkLwCAIJ9f8e2eamIqx9Cn6X/locJw9xT8A8RMJx3Y=",
+"partitioncount":1,
+"consumergroup":"reader",
+"checkpointdir":/tmp/,
+"checkpointinterval":60000,
+"maxRate":4000,
+"batchDuration":60,
+"appName":"StreamingPOC"
+}
